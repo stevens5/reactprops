@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <h1 className="heading">My Contacts</h1>
-      <Avatar img= "https://i1.rgstatic.net/ii/profile.image/918921863524352-1596099453662_Q512/Stephen-Oyeyemi.jpg"/>
+      <Avatar img= "https://imgv3.fotor.com/images/main-function/graphic-design-tools.png"/>
       <Card 
         name= {contacts[0].name}
         img= {contacts[0].imgURL}
@@ -30,3 +30,6 @@ function App() {
 }
 
 export default App;
+
+
+//mapping data components
